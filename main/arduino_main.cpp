@@ -36,6 +36,8 @@ void setup() {
     uni_bt_allowlist_set_enabled(true);
 }
 
+// Huan was here
+
 void loop() {
     vTaskDelay(1); // Ensures WDT does not get triggered when no controller is connected
     BP32.update(); 
